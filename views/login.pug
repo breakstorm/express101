@@ -1,0 +1,9 @@
+extends layout 
+
+block content 
+  h1= title
+  p hello world
+  form(action="login" method="POST")
+    input(type="text" name="id")
+    input(type="text" name="pw")
+    button(type="submit") submit
